@@ -37,13 +37,13 @@ const { title, noHeader } = Astro.props
     {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
   </head>
   <body class="bg-white">
-    <header class={noHeader ? "hidden" : ""}>
-      <a href="/">
+    <header class={noHeader ? "hidden" : "py-4 px-2"}>
+      <a href="/" class="text-2xl">
         {site.title}
       </a>
 
       <nav>
-        <a href="/catalogue/shows/">Shows</a>
+        <a href="/catalogue/shows/" class="link text-2xl ml-4">Shows</a>
       </nav>
     </header>
 
