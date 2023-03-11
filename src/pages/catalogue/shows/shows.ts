@@ -27,7 +27,7 @@ export const shows: Show[] = [
       [
         { slug: "drunken-sailor", feat: "WP" },
         { slug: "paddy-on-the-railway", feat: "WP" },
-        { slug: "big-strong-man_c", feat: "Adam" },
+        { slug: "big-strong-man_c", feat: "Aaron" },
         { slug: "molly-malone_g", feat: "WP" },
         { slug: ["oh-maggie_g", "oh-maggie_a"], feat: "Nick" },
         { slug: "come-my-friends", feat: "Don" },
