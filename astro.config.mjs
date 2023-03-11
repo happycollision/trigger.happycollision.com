@@ -12,6 +12,7 @@ export default defineConfig({
     tailwind(),
     AstroPWA({
       registerType: "autoUpdate",
+      injectRegister: null,
       manifest: {
         name: "Finger on the Trigger",
         short_name: "FoTT",
