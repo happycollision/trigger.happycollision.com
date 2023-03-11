@@ -1,7 +1,7 @@
 ---
 title: Big Strong Man
-altTitle: Key of D
-reminder: D A
+altTitle: Key of C
+reminder: C G
 ---
 
 [YouTube link](https://www.youtube.com/watch?v=lVWykMPJlu4)
@@ -17,13 +17,13 @@ reminder: D A
 [Dublin O'Shea]
 
 [a capella both times, unison the first time (chords are for harmony practice)]
-D                               G             D
+C                               F             C
 Have another drink, boys. Well, have one with me.
-      G             D               Em          A7
+      F             C               Dm          G7
 We're home from the sea. Yes, we're back on the shore;
-       D                           G           D
+       C                           F           C
 And if you get too drunk, boys, in this company,
-       F                C           G      D
+       Eb               Bb          F      C
 You'll roar 'round Cape Horn on the Rory O'Mor.
 
 [repeat once, this time with harmony, and sing the last line 3 times]
@@ -31,36 +31,36 @@ You'll roar 'round Cape Horn on the Rory O'Mor.
 
 [Big Strong Man begins]
 
-         D                                                A
+         C                                                G
 Have you heard about the big strong man he lives in a caravan.
-         (A)                                     A7                    D
+         (G)                                     G7                    C
 Have you heard about the Tommy Gibbons fight? Oh Lord what a hell of a fight.
-              (D)
+              (C)
 Well, you can take all the heavyweights you got (WHATCHA GOT?)
-                                             A
+                                             G
         we got a lad who will beat the whole lot.
-                                                                     D
+                                                                     C
 He used to ring the bells in the belfry now he's going to fight Jack Dempsey.
 
 
 
 [Chorus]
-D
+C
 He was me brother Sylvest (WHAT'S HE GOT?)
-                                             A
+                                             G
        He's got a row of forty medals on his chest (BIG CHEST)
-       A                                       D
+       G                                       C
 He killed fifty vermin in the west he knows no rest.
 
 Bigger the man, (Hell's fire)
 don't push (JUST SHOVE)
 plenty of room for you and me.
 
-            D
+            C
 He's got an arm like a leg (A LADY'S LEG)
-                                            A
+                                            G
         and a punch that would sink a battleship (BIG SHIP)
-                                                         D
+                                                         C
 it takes all the army and the navy to put the wind up Sylvest.
 
 
