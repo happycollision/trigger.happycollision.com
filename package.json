@@ -1,0 +1,26 @@
+{
+  "name": "finger-on-the-trigger",
+  "type": "module",
+  "version": "0.0.1",
+  "private": true,
+  "scripts": {
+    "dev": "astro dev",
+    "start": "astro dev",
+    "build": "astro build",
+    "deploy:prep": "npm run build && rsync -rt dist/* deploy.ignore && touch deploy.ignore/.nojekyll",
+    "deploy": "./deploy-gh-pages.sh",
+    "preview": "astro preview",
+    "astro": "astro"
+  },
+  "dependencies": {
+    "@astrojs/mdx": "^0.16.0",
+    "@astrojs/tailwind": "^3.0.1",
+    "astro": "^2.0.10",
+    "tailwindcss": "^3.2.6"
+  },
+  "devDependencies": {
+    "@vite-pwa/astro": "^0.0.5",
+    "prettier": "^2.8.3",
+    "prettier-plugin-astro": "^0.8.0"
+  }
+}

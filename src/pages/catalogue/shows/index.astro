@@ -1,0 +1,19 @@
+---
+import Layout from "$layouts/Layout.astro"
+import { shows } from "./shows"
+---
+
+<Layout title="Finger on the Trigger">
+  <h1>Setlists</h1>
+  <ul>
+    {
+      shows.map((show) => (
+        <li>
+          <a class="link" href={`/catalogue/shows/${show.slug}/`}>
+            {show.name}
+          </a>
+        </li>
+      ))
+    }
+  </ul>
+</Layout>

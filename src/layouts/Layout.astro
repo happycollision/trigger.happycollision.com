@@ -1,0 +1,52 @@
+---
+import { pwaInfo } from "virtual:pwa-info"
+import * as site from "$data/site"
+export interface Props {
+  title: string
+  noHeader?: boolean
+}
+const { title, noHeader } = Astro.props
+---
+
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width" />
+    <link rel="icon" type="image/svg+xml" href="/favicon.svg" />
+    <meta name="generator" content={Astro.generator} />
+    <title>{title}</title>
+    <style is:global>
+      @media (prefers-color-scheme: dark) {
+        html {
+          filter: invert();
+        }
+
+        .astro-code {
+          filter: invert();
+        }
+
+        img {
+          filter: invert();
+          opacity: 0.7;
+        }
+      }
+    </style>
+
+    <script src="/src/pwa.ts"></script>
+    {pwaInfo && <Fragment set:html={pwaInfo.webManifest.linkTag} />}
+  </head>
+  <body class="bg-white">
+    <header class={noHeader ? "hidden" : ""}>
+      <a href="/">
+        {site.title}
+      </a>
+
+      <nav>
+        <a href="/catalogue/shows/">Shows</a>
+      </nav>
+    </header>
+
+    <slot />
+  </body>
+</html>
