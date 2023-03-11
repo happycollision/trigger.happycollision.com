@@ -1,35 +1,33 @@
 ---
 title: Molly Malone
-reminder: C Am Dm G
+altTitle: Key of G
+reminder: G Em Am D
 ---
 
 [YouTube link](https://www.youtube.com/watch?v=R5p_mL-pnWw) (we do it more
 lively than this but you get the idea)
 
-I am not sure about the end of this, and I also think it is possible that Nick
-only plays C and G the whole time? We should double check this one.
-
 ```
 [Verse 1]
-   C             Am
+   G             Em
 In Dublin's fair city,
-          Dm           G
+          Am           D
 where the girls are so pretty,
-  C            Am            Dm      G
+  G            Bm            Am      D
 I first set my eyes on sweet Molly Malone,
-       C                 Am
+       G                 Em
 As she wheeled her wheel-barrow,
-        Dm                G
+        Am                D
 Through streets broad and narrow,
-         C           Am        F       G     C
+         G           Bm        Am      D     G
 Crying, "Cockles and mussels, alive, alive, oh!"
 
 [Chorus]
-  C            Am
+  G            Em
 "Alive, alive, oh,
- Dm           G
+ Am           D
 Alive, alive, oh",
-        C           Am        F       G     C
+        G           Bm        Am     D     G
 Crying "Cockles and mussels, alive, alive, oh".
 
 [Verse 2]
