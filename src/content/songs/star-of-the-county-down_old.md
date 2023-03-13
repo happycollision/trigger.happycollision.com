@@ -1,12 +1,16 @@
 ---
 title: The Star of the County Down
-reminder: (double check these chords...)
+altTitle: Old chords
+reminder: starts Em G D
 ---
 
 [YouTube link](https://www.youtube.com/watch?v=HEt2XdN_TbQ)
 
 [Our recording](https://www.dropbox.com/s/wko4jgyc71jygxp/01%20Star%20of%20the%20County%20Down.m4a?dl=0) -
 We don't do the George Michel lyrics anymore
+
+> These are the chords that we had in our very old book. No idea if they are
+> right.
 
 ```
         Em                     G      D
