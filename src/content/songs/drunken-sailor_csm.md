@@ -1,19 +1,20 @@
 ---
 title: Drunken Sailor
-reminder: Dm C Dm F Am C Dm
+altTitle: key of C#m
+reminder: C#m B C#m E G#m B C#m
 ---
 
 [YouTube link](https://www.youtube.com/watch?v=KI_l7U-nUmg)
 
 ```
 [Verse 1]
-Dm
+C#m
 What shall we do with the drunken sailor?
-C
+B
 What shall we do with the drunken sailor?
-Dm                        F
+C#m                       E
 What shall we do with the drunken sailor?
-Am     C      Dm
+G#m    B      C#m
 Ear-ly in the morning
 
 
@@ -50,13 +51,13 @@ Keel haul him 'til he's sober
 Put him in the brig with the captain's daughter
 
 
-Dm
+C#m
 That's what we do with the drunken sailor!
-C
+B
 That's what we do with the drunken sailor!
-Dm
+C#m
 That's what we do with the drunken sailor!
-Dm  C         Dm
+C#m  B        C#m
 Ear-ly in the morning
 
 

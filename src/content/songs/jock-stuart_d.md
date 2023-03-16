@@ -1,34 +1,35 @@
 ---
 title: Jock Stuart
-reminder: C G C F, C F C G
+altTitle: D (capo 3 for F)
+reminder: D A D G, D A D A
 ---
 
 [YouTube link](https://www.youtube.com/watch?v=BU0tHnpoTOc)
 
 ```
 [Intro]
-C  F  C  G
-C  F  C  G
+D  G  D  A
+D  G  D  A
 
 [Verse]
-        C            G
+        D            A
 Now, my name is Jock Stewart
-      C          F
+      D          G
 I'm a canny gaun man
-      C            F           C     G
+      D            A           D     A
 And a roving young fellow I've been
 
 [Chorus]
-      C        G
+      D        A
 So be easy and free
-            C            F
+            D            G
 When you're drinkin' wi' me
-      C             F          C    G
+      D             A          D    A
 I'm a man you don't meet every day
 
 [Instrumental]
-C  F  C  G
-C  F  C  G
+D  G  D  A
+D  G  D  A
 
 [Verse]
 I have acres of land
@@ -56,7 +57,7 @@ And whatever the cost, I will pay
 [Chorus]
 
 [Outro]
-C  F  C  G
-C  F  C  G
+D  G  D  A
+D  G  D  A
 
 ```
