@@ -286,7 +286,7 @@ const thisSongStats = sets
         </div>
         {
           sets.map((songs, i) => (
-            <div class="mt-4 ">
+            <div class="mt-4 break-after-page">
               <h2 class="text-2xl mb-4">Set {++i}</h2>
               <ol class="list-decimal text-xl">
                 {songs.map((song) => {
@@ -303,7 +303,7 @@ const thisSongStats = sets
                     <a
                       id={song.slug}
                       class={
-                        "block " +
+                        "block break-inside-avoid " +
                         (isActive ? "bg-neutral-200" : "hover:bg-blue-200")
                       }
                       href={s`${showUrl}/${song.songNo}`}
