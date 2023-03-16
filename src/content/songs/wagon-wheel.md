@@ -1,6 +1,6 @@
 ---
 title: Wagon Wheel
-reminder: "capo 2: G D Em C; no capo: A E F#m D"
+reminder: "A E F#m D; (capo 2: G D Em C)"
 ---
 
 [YouTube link](https://www.youtube.com/watch?v=1gX1EP6mG-E)

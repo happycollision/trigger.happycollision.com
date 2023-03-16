@@ -1,5 +1,6 @@
 ---
 title: Tell Me Ma
+reminder: G D G C G
 ---
 
 [YouTube link](https://www.youtube.com/watch?v=db_Tg2fz8aQ)
