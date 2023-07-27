@@ -9,7 +9,7 @@ reminder: Dm Am, GC GC GCDm
 
 ```
 Dm
-Gentle men it is my duty To inform you of one beauty
+Gentlemen it is my duty To inform you of one beauty
 Dm                                (G C G C GCDm)
 Though I'd ask you of a favor, no to seek her for awhile
 Dm
