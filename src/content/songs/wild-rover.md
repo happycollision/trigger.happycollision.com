@@ -50,5 +50,5 @@ I never shall play the wild rover no more
 
 [Chorus]
 
-[Chorus, audience competition on "play", CHECK WITH SINGER FIRST!]
+[Chorus, audience competition on "play", he]
 ```
