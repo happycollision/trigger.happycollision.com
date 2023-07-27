@@ -4,6 +4,8 @@ title: The Water is Wide
 
 [YouTube link](https://www.youtube.com/watch?v=ADlrgdtBzfs)
 
+Play with these chords. There are nice motifs that present themselves
+
 ```
 (G)          G     C              G
 The water is wide,   I cannot get o'er;
