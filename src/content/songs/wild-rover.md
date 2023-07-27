@@ -9,7 +9,7 @@ title: Wild Rover
      G                            C
 I've been a wild rover for many a year
    G                D           G
-My money I spent on whiskey and beer
+My money I spent on whiskey and bears
      G                                   C
 But now I'm returning with gold in great store
       G                        D        G
