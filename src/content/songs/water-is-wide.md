@@ -17,7 +17,7 @@ Give me a boat    that can carry two,
 And both shall row,    my love and I.
 
 
-(Repeat G until singer starts each verse)
+(Repeat G until Don starts each verse)
 
 
 There is a ship and she sails the sea;
