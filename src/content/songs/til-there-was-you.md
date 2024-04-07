@@ -1,0 +1,68 @@
+---
+title: Til There Was You
+altTitle: Key of A
+---
+
+```
+[Intro]
+
+A A#dim7 Bm E7
+A A#dim7 Bm E7
+
+[Verse]
+
+           A          A#dim7
+There were bells on a hill
+      Bm               Dm
+But I never heard them ringing
+     A     C#m           Bm
+No I never heard them at all
+E              A Bm  E E7
+Till there was you
+
+           A            A#dim7
+There were birds in the sky
+      Bm             Dm
+But I never saw them winging
+     A     C#m         Bm
+No I never saw them at all
+E              A  A7
+Till there was you
+
+[Pre-Chorus]
+
+               D         Dm       A
+Then there was music, and wonderful roses
+     F#7         Bm             B7         E         E7
+They tell me, in sweet fragrant meadows of dawn, and you
+
+[Chorus]
+
+          A          A#dim7
+There was love, all around
+      Bm             Dm
+But I never heard it singing
+     A     C#m         Bm
+No I never heard it at all
+E              A  Bm E E7
+Till there was you
+
+[Pre-Chorus]
+
+               D         Dm       A
+Then there was music, and wonderful roses
+     F#7         Bm             B7         E        E7
+They tell me, in sweet fragrant meadows of dawn and you
+
+[Chorus]
+
+          A          A#dim7
+There was love, all around
+      Bm             Dm
+But I never heard it singing
+     A     C#m         Bm
+No I never heard it at all,
+E              A
+Till there was you
+
+```
