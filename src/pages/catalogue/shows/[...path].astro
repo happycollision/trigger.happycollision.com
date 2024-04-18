@@ -164,6 +164,52 @@ const thisSongStats = sets
   .map(([set, songNum, totalSongs]) => ({ set, songNum, totalSongs }))
 ---
 
+<script>
+  function scrollBy(
+    element: Element | null,
+    value: number,
+    duration: number,
+    easingFunc: (t: number) => number,
+  ) {
+    if (!element) return
+    var startTime: number
+    var startPos = element.scrollTop
+    var clientHeight = element.clientHeight
+    var maxScroll = element.scrollHeight - clientHeight
+    var scrollIntendedDestination = startPos + value
+    // low and high bounds for possible scroll destinations
+    var scrollEndValue = Math.min(
+      Math.max(scrollIntendedDestination, 0),
+      maxScroll,
+    )
+    // create recursive function to call every frame
+    var scroll = function (timestamp: number) {
+      startTime = startTime || timestamp
+      var elapsed = timestamp - startTime
+      element.scrollTop =
+        startPos + (scrollEndValue - startPos) * easingFunc(elapsed / duration)
+      elapsed <= duration && window.requestAnimationFrame(scroll)
+    }
+    // call recursive function
+    if (startPos != scrollEndValue) window.requestAnimationFrame(scroll)
+  }
+
+  var easeInOutCubic = function (t: number) {
+    return t < 0.5 ? 4 * t * t * t : (t - 1) * (2 * t - 2) * (2 * t - 2) + 1
+  }
+
+  function scrolly() {
+    scrollBy(
+      window.document.scrollingElement,
+      window.innerHeight * 0.66,
+      1500,
+      easeInOutCubic,
+    )
+  }
+
+  document.querySelector("[data-scroll]")?.addEventListener("click", scrolly)
+</script>
+
 <Layout
   title={songDetails ? `${songDetails.data.title} | ${showName}` : showName}
   noHeader
@@ -263,10 +309,14 @@ const thisSongStats = sets
 
               <div class="mt-4 text-xl">{songDetails.data.reminder}</div>
 
-              <div class="text-xl mt-4 [&>pre]:whitespace-pre-wrap">
+              <div class="text-xl mt-4 [&_pre]:whitespace-pre-wrap">
                 <Markdown>
                   <Content />
                 </Markdown>
+                <button
+                  data-scroll
+                  class="block sticky bottom-0 left-0 w-full h-[33.33vh]"
+                />
               </div>
             </div>
           </div>
