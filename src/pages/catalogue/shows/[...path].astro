@@ -1,4 +1,5 @@
 ---
+import { marked } from "marked"
 import { getCollection } from "astro:content"
 import { urlsMatch, slasher as s } from "$lib/urls"
 import Layout from "$layouts/Layout.astro"
@@ -16,29 +17,34 @@ export async function getStaticPaths() {
   return shows.flatMap((show) => {
     let songNo = 0
     const sets = show.sets.map((songs) =>
-      songs.map((song) => {
-        const [slug, ...altSlugs] = ensureArray(song.slug)
-        const found = songList.find((x) => x.slug === slug)
-        if (!found) throw new Error(`Couldn't find song ${slug}`)
-
-        const altsFound = altSlugs.map((alt) => {
-          const altFound = songList.find((x) => x.slug === alt)
-          if (!altFound)
-            throw new Error(`Couldn't find alternative song ${alt}`)
-          return altFound
-        })
-
-        return {
+      songs
+        .map((song) => ({
           ...song,
-          ...found,
-          songNo: ++songNo,
-          altVersions: altsFound.map((alt) => ({
+          banterHtml: song.banter ? marked.parse(song.banter) : undefined,
+        }))
+        .map((song) => {
+          const [slug, ...altSlugs] = ensureArray(song.slug)
+          const found = songList.find((x) => x.slug === slug)
+          if (!found) throw new Error(`Couldn't find song ${slug}`)
+
+          const altsFound = altSlugs.map((alt) => {
+            const altFound = songList.find((x) => x.slug === alt)
+            if (!altFound)
+              throw new Error(`Couldn't find alternative song ${alt}`)
+            return altFound
+          })
+
+          return {
             ...song,
-            ...alt,
-            songNo,
-          })),
-        }
-      }),
+            ...found,
+            songNo: ++songNo,
+            altVersions: altsFound.map((alt) => ({
+              ...song,
+              ...alt,
+              songNo,
+            })),
+          }
+        }),
     )
 
     const baseProps = {
@@ -359,6 +365,10 @@ const thisSongStats = sets
 
               <div class="text-xl mt-4 [&_pre]:whitespace-pre-wrap">
                 <Markdown>
+                  <div
+                    class="bg-gray-200 rounded p-2 border border-gray-500 my-4"
+                    set:html={songDetails.banterHtml}
+                  />
                   <Content />
                 </Markdown>
                 <button

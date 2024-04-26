@@ -1,4 +1,4 @@
-type ShowSong = { slug: string | string[]; feat?: string | undefined }
+type ShowSong = { slug: string | string[]; feat?: string | undefined; banter?: string | undefined }
 type ShowSet = ShowSong[]
 type Show = { name: string; slug: string; sets: ShowSet[] }
 
