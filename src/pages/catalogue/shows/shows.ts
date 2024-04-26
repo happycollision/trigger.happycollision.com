@@ -114,29 +114,131 @@ export const shows: Show[] = [
     slug: "alexian-04-2024",
     sets: [
       [
-        { slug: "chapel", feat: "Paige" },
-        { slug: "jambalaya", feat: "Don" },
-        { slug: "dream-lover", feat: "Paige" },
-        { slug: "wild-rover", feat: "Don" },
-        { slug: "edelweiss", feat: "Don" },
-        { slug: "down-to-the-river-to-pray", feat: "Paige" },
-        { slug: "folsom-prison-blues", feat: "Don" },
-        { slug: "til-there-was-you", feat: "Don & Paige" },
-        { slug: "lollipop", feat: "Paige" },
-        { slug: "tell-me-ma", feat: "Don" },
-        { slug: "hey-good-lookin", feat: "Don" },
-        { slug: "walking-after-midnight", feat: "Paige" },
-        { slug: "lovesick-blues", feat: "Don" },
-        { slug: "allegheny-moon", feat: "Paige" },
-        { slug: "bvb", feat: "Don" },
-        { slug: "parting-glass", feat: "Don" },
-        { slug: "save-the-last-dance-for-me", feat: "Don" },
-        { slug: "go-lassie-go", feat: "Don" },
-        { slug: "its-my-party", feat: "Paige" },
-        { slug: "do-i-ever-cross-your-mind", feat: "Paige" },
-        { slug: "your-cheating-heart", feat: "Don" },
-        { slug: "i-saw-the-light", feat: "Don" },
-        { slug: "take-me-home-country-roads", feat: "Don" },
+        {
+          slug: "chapel",
+          feat: "Paige",
+          banter:
+            "**Paige**: hey everyone! My name is Paige and this is my husband Don. We have three children, the oldest one is 4. So our daily lives are very chaotic and busy, and we are thrilled to be able to take a break from chasing our babies around to be here with you and sing some songs! I want to encourage you to please help us out and sing along if you know the words to any of these- or hum along even if you don’t know the words! Hopefully you’ll recognize this first song. It’s always been a favorite of mine. I remember singing it on the playground at Lutheran Elementary school at recess. And making my friends do the harmony. Now I make my husband do the harmony. Hit it honey.",
+        },
+        {
+          slug: "jambalaya",
+          feat: "Don",
+          banter:
+            "**Don**: do we have any Hank Williams fans? I had the honor of playing the role of Hank Williams onstage at a theatre in the northwest corner of Nebraska at the where Paige and I met. I loved playing the role of Hank and getting to learn so many of his songs.\n\n**Paige**: and I played the waitress in it!",
+        },
+        {
+          slug: "dream-lover",
+          feat: "Paige",
+          banter: "**Paige**: This next song is a 1959 Bobby Darin song but I wanted to sing this one so we’re making it a girl song today.",
+        },
+        {
+          slug: "wild-rover",
+          feat: "Don",
+          banter:
+            "**Don:** Once a year, around St. Patrick’s day, I get to perform with my buddies in our Irish band in Chicago where I used to live. This year, our performance is in May- so if it’s alright with you I wanted to preview a few of those songs for you today. This one’s called the Wild Rover and if you’d like to clap along (explain the clapping part).",
+        },
+        {
+          slug: "edelweiss",
+          feat: "Don",
+          banter:
+            "**Paige**: this next one is from the musical The Sound Of Music. Don and I were in a production of this, but we didn’t get to play opposite each other in this one. He was Captain Von Trapp but I was the Baroness. But today I’m gonna be Maria.",
+        },
+        {
+          slug: "down-to-the-river-to-pray",
+          feat: "Paige",
+          banter: "**Paige**: Next we have a song that I just love and have always thought was so beautiful. It’s an Allison Krauss song called Down to the River to Pray",
+        },
+        {
+          slug: "folsom-prison-blues",
+          feat: "Don",
+          banter: "**Don**: next up we have a song made so famous by Johnny Cash that it doesn’t really need an introduction.",
+        },
+        {
+          slug: "til-there-was-you",
+          feat: "Don & Paige",
+          banter: "**Paige:** Now we have a song from the Music Man. This one we did get to play opposite each other at a theatre in the Quad Cities where we lived for a while.",
+        },
+        {
+          slug: "lollipop",
+          feat: "Paige",
+          banter:
+            "**Paige**: Next we have just a fun song from 1958 made popular by the group the Chordettes. It takes a lot of deep breaths to get through this one, and when Don makes me laugh I can’t get through it. So fingers crossed we make it through.",
+        },
+        {
+          slug: "tell-me-ma",
+          feat: "Don",
+          banter: "**Don**: Now we’ve got another Irish song for you. This one is a favorite of our kids- Marvin, Darby, and Trilby. It’s called Tell Me Ma.",
+        },
+        {
+          slug: "hey-good-lookin",
+          feat: "Don",
+          banter: "**Don**: Next we have another Hank Williams for you.",
+        },
+        {
+          slug: "walking-after-midnight",
+          feat: "Paige",
+          banter:
+            "**Paige**: Now I’m going to take my turn at a country song. This one is a Patsy Cline hit from 1957. This was the first one she ever sang on national television and it’s the one that made her famous. Anyone know which one?",
+        },
+        {
+          slug: "lovesick-blues",
+          feat: "Don",
+          banter:
+            "**Don**: Here’s another Hank Williams song.\n\n**Paige**: This is one I got to sit onstage and watch Don sing every night in the show we were in, and I had to act like I really enjoyed listening to him. And I didn’t have to act of course.",
+        },
+        {
+          slug: "allegheny-moon",
+          feat: "Paige",
+          banter:
+            "**Paige**: this next one is a Patti Page song that I had never heard until I was in a musical that had a lot of 50s and 60s songs in it called Marvelous Wonderettes. And I got to sing this beautiful one called Allegheny Moon.",
+        },
+        {
+          slug: "bvb",
+          feat: "Don",
+          banter:
+            "**Paige**: Don has another Irish song next. Now this song I have a personal connection to because my mom loves this song, and when I was in high school and first starting to get into singing, she always tried to get me to sing this one. And I always thought in my teenage brain- no mom, that song is so not cool. But then later Don sang it with his Irish band and I thought oh my gosh, it is a cool song when he sings it! And my mom (who is babysitting our 3 children right now) still says it was meant to be that I’d marry Don since he sings this song that she always wanted me to sing.",
+        },
+        {
+          slug: "parting-glass",
+          feat: "Don",
+          banter: "**Don**: ~Now we’d like to sing one that we just think is pretty.~ (Better ad lib)",
+        },
+        {
+          slug: "save-the-last-dance-for-me",
+          feat: "Don",
+          banter:
+            "**Don**: Next we’ve got one you’ll probably recognize- again, please sing along if you feel like it! A 1960 song recorded by the Drifters called Save the Last Dance For Me.",
+        },
+        {
+          slug: "go-lassie-go",
+          feat: "Don",
+        },
+        {
+          slug: "its-my-party",
+          feat: "Paige",
+          banter:
+            "**Paige**: Now, we mentioned we have three kids at home. We have a 4 year old boy, a 2 year old boy, and an 8 month old girl. There’s a lot of crying at our house on a typical day. So I’d like to dedicate this Lesley Gore song to our children. It’s called “It’s My Party, and I’ll Cry if I Want to.”",
+        },
+        {
+          slug: "do-i-ever-cross-your-mind",
+          feat: "Paige",
+          banter: "**Paige**: The next song is a Dolly Parton song that I heard one day and just thought it was cool and wanted to learn it, so here’s “Do I Ever Cross Your Mind”",
+        },
+        {
+          slug: "your-cheating-heart",
+          feat: "Don",
+          banter: "**Don:** next we have a couple last Hank Williams songs for you.",
+        },
+        {
+          slug: "i-saw-the-light",
+          feat: "Don",
+        },
+        {
+          slug: "take-me-home-country-roads",
+          feat: "Don",
+          banter:
+            "**Paige**: We want to thank you so much for being here with us today and appreciating this music. Now that we’re parents, we don’t get the opportunity to perform as much anymore. So this has been a huge treat for us, and we thank you for it! We’re going to sing one last song and it’s about going home, which we’re about to do- go back to the babies.",
+        },
       ],
     ],
   },
