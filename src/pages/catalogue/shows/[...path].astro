@@ -208,6 +208,42 @@ const thisSongStats = sets
   }
 
   document.querySelector("[data-scroll]")?.addEventListener("click", scrolly)
+
+  // Columns
+
+  function syncCols() {
+    let cols = localStorage.getItem("render:cols") ?? "1"
+    document.body.style.setProperty("--cols", cols)
+  }
+  function toggleCols() {
+    let cols = localStorage.getItem("render:cols") ?? "1"
+    cols = cols === "1" ? "2" : "1"
+    localStorage.setItem("render:cols", cols)
+    syncCols()
+  }
+  syncCols()
+
+  document
+    .querySelector("button[data-toggle-cols]")
+    ?.addEventListener("click", toggleCols)
+
+  // Text size
+
+  function syncTextSize() {
+    let textSize = localStorage.getItem("render:textSize") ?? "1"
+    document.body.style.setProperty("--text-size", textSize + "rem")
+  }
+  function toggleTextSize() {
+    let textSize = localStorage.getItem("render:textSize") ?? "1"
+    textSize = textSize === "1" ? "0.75" : "1"
+    localStorage.setItem("render:textSize", textSize)
+    syncTextSize()
+  }
+  syncTextSize()
+
+  document
+    .querySelector("button[data-toggle-text-size]")
+    ?.addEventListener("click", toggleTextSize)
 </script>
 
 <Layout
@@ -279,6 +315,18 @@ const thisSongStats = sets
                 <div class="shrink-0">
                   <h2 class="text-3xl">{songDetails.data.title}</h2>
                   <h3 class="text-xl">lead vocals: {songDetails.feat}</h3>
+                  <button
+                    data-toggle-cols
+                    class="text-xl bg-blue-600 text-white rounded py-1 px-2 hover:bg-blue-500"
+                  >
+                    Toggle cols
+                  </button>
+                  <button
+                    data-toggle-text-size
+                    class="text-xl bg-blue-600 text-white rounded py-1 px-2 hover:bg-blue-500"
+                  >
+                    Text size
+                  </button>
                 </div>
 
                 {altVersions && (
