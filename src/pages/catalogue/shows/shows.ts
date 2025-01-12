@@ -242,4 +242,18 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Paige Big Band",
+    slug: "alexian-04-2024",
+    sets: [
+      [
+        { slug: "only-you" },
+        { slug: "caught-a-touch-of-your-love" },
+        { slug: "almost-like-being-in-love" },
+        { slug: "nature-boy" },
+        { slug: "come-rain-or-come-shine" },
+        { slug: "fever" },
+      ],
+    ],
+  },
 ]
