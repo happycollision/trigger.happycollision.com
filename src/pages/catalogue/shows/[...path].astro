@@ -365,10 +365,12 @@ const thisSongStats = sets
 
               <div class="text-xl mt-4 [&_pre]:whitespace-pre-wrap">
                 <Markdown>
-                  <div
-                    class="bg-gray-200 rounded p-2 border border-gray-500 my-4"
-                    set:html={songDetails.banterHtml}
-                  />
+                  {songDetails.banterHtml && (
+                    <div
+                      class="bg-gray-200 rounded p-2 border border-gray-500 my-4"
+                      set:html={songDetails.banterHtml}
+                    />
+                  )}
                   <Content />
                 </Markdown>
                 <button
