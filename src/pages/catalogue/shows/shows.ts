@@ -244,7 +244,7 @@ export const shows: Show[] = [
   },
   {
     name: "Paige Big Band",
-    slug: "alexian-04-2024",
+    slug: "big-band-02-2025",
     sets: [
       [
         { slug: "only-you" },
@@ -253,6 +253,23 @@ export const shows: Show[] = [
         { slug: "nature-boy" },
         { slug: "come-rain-or-come-shine" },
         { slug: "fever" },
+      ],
+    ],
+  },
+  {
+    name: "Paige Alexian",
+    slug: "alexian-01-2025",
+    sets: [
+      [
+        { slug: "i-got-rhythm" },
+        { slug: "detour-ahead" },
+        { slug: "popular" },
+        { slug: "never-never-land" },
+        { slug: "fever" },
+        { slug: "my-favorite-things" },
+        { slug: "if-i-were-a-bell" },
+        { slug: "in-my-own-little-corner" },
+        { slug: "cant-help-falling-in-love" },
       ],
     ],
   },

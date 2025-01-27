@@ -1,0 +1,46 @@
+---
+title: Can't Help Falling in Love
+---
+
+```
+[Verse 1]
+Wise men say
+"Only fools rush in"
+But I can't help
+Falling in love with you
+
+[Verse 2]
+Shall I stay?
+Would it be a sin
+If I can't help
+Falling in love with you?
+
+[Chorus]
+Like a river flows
+Surely to the sea
+Darling, so it goes
+Some things are meant to be
+
+[Verse 3]
+Take my hand
+Take my whole life, too
+For I can't help
+Falling in love with you
+
+[Chorus]
+Like a river flows
+Surely to the sea
+Darling, so it goes
+Some things are meant to be
+See upcoming pop shows
+Get tickets for your favorite artists
+You might also like
+
+[Outro]
+Take my hand
+Take my whole life, too
+For I can't help
+Falling in love with you
+For I can't help
+Falling in love with you
+```
