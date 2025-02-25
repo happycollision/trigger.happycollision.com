@@ -273,4 +273,22 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Paige Alexian February",
+    slug: "alexian-02-2025",
+    sets: [
+      [
+        { slug: "walking-after-midnight" },
+        { slug: "hound-dog" },
+        { slug: "part-of-your-world" },
+        { slug: "popular", banter: "Jordan's piano solo precedes this one." },
+        { slug: "im-gonna-wash-that-man" },
+        { slug: "on-my-own", banter: "Jordan's piano solo precedes this one." },
+        { slug: "cant-help-falling-in-love" },
+        { slug: "whos-sorry-now", banter: "Jordan's piano solo precedes this one." },
+        { slug: "i-got-rhythm" },
+        { slug: "fever" },
+      ],
+    ],
+  },
 ]
