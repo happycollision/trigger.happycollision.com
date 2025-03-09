@@ -291,4 +291,19 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Paige Monday Night Big Band (March 2025)",
+    slug: "mnbb-03-2025",
+    sets: [
+      [
+        { slug: "i-remember-you" },
+        { slug: "quiet-nights-of-quiet-stars" },
+        { slug: "i-told-ya-i-love-ya" },
+        { slug: "do-nothing-til-you-hear-from-me" },
+        { slug: "teach-me-tonight" },
+        { slug: "what-a-difference-a-day-makes" },
+        { slug: "the-beat-goes-on" },
+      ],
+    ],
+  },
 ]
