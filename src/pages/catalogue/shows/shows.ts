@@ -306,4 +306,22 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Paige Alexian March 2025",
+    slug: "alexian-03-2025",
+    sets: [
+      [
+        { slug: "beauty-and-the-beast" },
+        { slug: "these-boots-are-made-for-walkin" },
+        { slug: "walking-after-midnight", banter: "AFTER THIS SONG: Jordan solo." },
+        { slug: "oh-what-a-beautiful-morning" },
+        { slug: "good-morning" },
+        { slug: "on-my-own", banter: "AFTER THIS SONG: Jordan solo." },
+        { slug: "killing-me-softly" },
+        { slug: "my-favorite-things" },
+        { slug: "i-got-rhythm", banter: "AFTER THIS SONG: End of show. Next song is the Encore" },
+        { slug: "cant-help-falling-in-love" },
+      ],
+    ],
+  },
 ]
