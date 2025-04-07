@@ -24,5 +24,13 @@ And the beat goes on, the beat goes on
 Drums keep pounding a rhythm to the brain
 La-de-da-de-de, la-de-da-de-da
 
-(Band plays to the end)
+(Band plays a long time)
+
+Drums keep pounding a rhythm to the brain
+La-de-da-de-de, la-de-da-de-da
+
+Grandmas sit in chairs and reminisce
+Boys keep chasing girls to get a kiss
+The cars keep going faster all the time
+Bums still cries, "Hey buddy, have you got a dime?"
 ```
