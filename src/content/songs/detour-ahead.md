@@ -1,5 +1,6 @@
 ---
 title: Detour Ahead
+altTitle: Key of C
 ---
 
 ```
@@ -25,18 +26,15 @@ I'm turning back away from all that sorrow
 Smooth road, clear day
 No detour ahead
 
-The further you travel, the harder to unravel the web
-She spins around you
+The further you travel
+The harder to unravel the web she spins around you
 Turn back while there's time
 Don't you see the danger sign?
 Soft shoulders surround you
-See upcoming pop shows
-Get tickets for your favorite artists
-You might also like
 
 Smooth road, clear night
 Oh, lucky me that suddenly I saw the light
 I'm turning back away from all that sorrow
 Smooth road, clear day
-No detour ahead
+No detour, no detour, no detour ahead
 ```
