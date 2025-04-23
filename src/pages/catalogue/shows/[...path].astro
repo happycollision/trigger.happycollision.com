@@ -94,48 +94,43 @@ export async function getStaticPaths() {
             ]
           : undefined
 
-        const altsInfo = altVersions.map((alt) => ({
-          params: {
-            path: `${show.slug}/${x.songNo}/alt/${alt.slug.split("_")[1]}`,
-          },
+        const sharedProps = {
+          ...baseProps,
+          safeSlug: x.slug,
+          nextUrl:
+            i < arr.length - 1
+              ? s`${baseProps.showUrl}/${x.songNo + 1}`
+              : undefined,
+          prevUrl: i > 0 ? s`${baseProps.showUrl}/${x.songNo - 1}` : undefined,
+          altVersions: altProps,
+        }
+
+        const mainInfo = {
+          params: { path: `${show.slug}/${x.songNo}` },
 
           props: {
-            ...baseProps,
-            songDetails: alt,
-            safeSlug: x.slug,
-            thisUrl: s`${baseProps.showUrl}/${x.songNo}/alt/${
-              alt.slug.split("_")[1]
-            }`,
-            nextUrl:
-              i < arr.length - 1
-                ? s`${baseProps.showUrl}/${x.songNo + 1}`
-                : undefined,
-            prevUrl:
-              i > 0 ? s`${baseProps.showUrl}/${x.songNo - 1}` : undefined,
-            altVersions: altProps,
+            ...sharedProps,
+            songDetails: details,
+            thisUrl: s`${baseProps.showUrl}/${x.songNo}`,
           },
-        }))
+        }
 
-        return [
-          {
-            params: { path: `${show.slug}/${x.songNo}` },
+        const altsInfo = altVersions.map((alt) => {
+          const altSongPath = `${x.songNo}/alt/${alt.slug.split("_")[1]}`
+          return {
+            params: {
+              path: `${show.slug}/${altSongPath}`,
+            },
 
             props: {
-              ...baseProps,
-              songDetails: details,
-              safeSlug: x.slug,
-              thisUrl: s`${baseProps.showUrl}/${x.songNo}`,
-              nextUrl:
-                i < arr.length - 1
-                  ? s`${baseProps.showUrl}/${x.songNo + 1}`
-                  : undefined,
-              prevUrl:
-                i > 0 ? s`${baseProps.showUrl}/${x.songNo - 1}` : undefined,
-              altVersions: altProps,
+              ...sharedProps,
+              songDetails: alt,
+              thisUrl: s`${baseProps.showUrl}/${altSongPath}`,
             },
-          },
-          ...altsInfo,
-        ]
+          }
+        })
+
+        return [mainInfo, ...altsInfo]
       }),
     ]
   })
