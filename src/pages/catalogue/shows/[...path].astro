@@ -138,7 +138,7 @@ export async function getStaticPaths() {
 
 type GspProps = Awaited<ReturnType<typeof getStaticPaths>>[number]["props"]
 
-interface Props extends GspProps {}
+export interface Props extends GspProps {}
 
 const {
   sets,
