@@ -64,6 +64,7 @@ export async function getStaticPaths() {
         songDetails: undefined as
           | Omit<(typeof allSongs)[number], "altVersions">
           | undefined,
+        nextSongTitle: undefined as string | undefined,
         safeSlug: undefined as string | undefined,
         thisUrl: baseProps.showUrl,
         nextUrl: undefined as string | undefined,
@@ -97,6 +98,7 @@ export async function getStaticPaths() {
         const sharedProps = {
           ...baseProps,
           safeSlug: x.slug,
+          nextSongTitle: arr[i + 1]?.data.title,
           nextUrl:
             i < arr.length - 1
               ? s`${baseProps.showUrl}/${x.songNo + 1}`
@@ -143,6 +145,7 @@ export interface Props extends GspProps {}
 const {
   sets,
   songDetails,
+  nextSongTitle,
   safeSlug,
   nextUrl,
   prevUrl,
@@ -308,6 +311,9 @@ const thisSongStats = sets
                     )}
                   </div>
                 </div>
+                <aside class="text-lg text-right leading-none mt-2">
+                  {nextSongTitle ? <>Next: {nextSongTitle}</> : <>&nbsp;</>}
+                </aside>
               </div>
             ))}
 
