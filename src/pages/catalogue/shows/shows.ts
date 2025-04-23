@@ -1,4 +1,6 @@
-type ShowSong = { slug: string | string[]; feat?: string | undefined; banter?: string | undefined }
+import type { CollectionEntry } from "astro:content"
+type SongSlug = CollectionEntry<"songs">["slug"]
+type ShowSong = { slug: SongSlug | SongSlug[]; feat?: string | undefined; banter?: string | undefined }
 type ShowSet = ShowSong[]
 type Show = { name: string; slug: string; sets: ShowSet[] }
 
