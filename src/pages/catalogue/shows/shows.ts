@@ -1,10 +1,15 @@
-import type { CollectionEntry } from "astro:content"
+import { getCollection, type CollectionEntry } from "astro:content"
 type SongSlug = CollectionEntry<"songs">["slug"]
 type ShowSong = { slug: SongSlug | SongSlug[]; feat?: string | undefined; banter?: string | undefined }
 type ShowSet = ShowSong[]
 type Show = { name: string; slug: string; sets: ShowSet[] }
 
+const allSongs = await getCollection("songs", (s) => {
+  return !s.slug.includes("_")
+})
+
 export const shows: Show[] = [
+  { name: "All Songs", slug: "all-songs", sets: [allSongs.map((s) => ({ slug: s.slug }))] },
   {
     name: "St. Patrick's 2023 (proposed list)",
     slug: "2023-03_proposed",

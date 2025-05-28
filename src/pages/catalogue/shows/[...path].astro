@@ -421,16 +421,17 @@ const thisSongStats = sets
                     >
                       <li class="py-4 ml-12 pl-0">
                         <div>
-                          <strong class="min-w-[4rem] inline-block">
-                            {song.feat}
-                          </strong>
                           <span class="link !no-underline">
                             {song.data.title}
                           </span>
+                          <strong class="min-w-[4rem] inline-block">
+                            {song.feat}
+                          </strong>
                         </div>
-                        {song.data.reminder && (
-                          <div class="mt-2">{song.data.reminder}</div>
-                        )}
+                        {!Astro.url.pathname.includes("/all-songs") &&
+                          song.data.reminder && (
+                            <div class="mt-2">{song.data.reminder}</div>
+                          )}
                       </li>
                     </a>
                   )
