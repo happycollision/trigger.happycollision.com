@@ -10,11 +10,14 @@ const songs = (await getCollection("songs")).sort((a, b) =>
 ---
 
 <Layout title="Songs">
-  <ol class="list-decimal">
+  <ol class="list-decimal pl-24 text-xl space-y-4">
     {
       songs.map((song) => (
         <li>
-          <a href={`/catalogue/songs/${song.slug}`}>{song.data.title}</a>
+          <a href={`/catalogue/songs/${song.slug}/`}>
+            <span class="link !no-underline">{song.data.title}</span>
+            {song.data.altTitle ? `(${song.data.altTitle})` : ""}
+          </a>
         </li>
       ))
     }
