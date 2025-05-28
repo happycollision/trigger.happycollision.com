@@ -384,7 +384,7 @@ const thisSongStats = sets
         )
       }
 
-      <div class="lg:w-96 shrink-0">
+      <div class="lg:w-96 shrink-0 h-screen overflow-y-auto sticky top-0">
         <div class="text-2xl border-b border-neutral-400 flex items-baseline">
           <h1 class="inline mr-4">
             <a href={showUrl} class="link !no-underline">
@@ -417,7 +417,7 @@ const thisSongStats = sets
                         "block break-inside-avoid " +
                         (isActive ? "bg-neutral-200" : "hover:bg-blue-200")
                       }
-                      href={s`${showUrl}/${song.songNo}`}
+                      href={s`${showUrl}/${song.songNo}` + `#${song.slug}`}
                     >
                       <li class="py-4 ml-12 pl-0">
                         <div>
