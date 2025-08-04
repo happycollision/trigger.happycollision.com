@@ -25,4 +25,24 @@ Is just to love and be loved in return"
 [Outro]
 "The greatest thing you'll ever learn
 Is just to love and be loved in return"
+
+
+(32 Bar Sax Solo)
+(32 Bar Trumpet solo)
+
+HA HA bia un chico, chico estra nyoyncantado
+Ee elvacapa muy lehos, muy lehos
+Sobrey tierra yah mar
+
+Un poco timido y triste de ohos, pero muy sabio fue el
+
+Entonces un dia, un dia magico, meh paso
+Hablamos sobre muchas cosas, muchas cosas
+ESTO meh deeho a mee (FAST*)
+
+*Solamente una cosa, que necesita sa bear
+Es dar su amor, ee recibirlo tambien
+
+Give all your love, and be loved
+Give all your love, and be loved in return
 ```

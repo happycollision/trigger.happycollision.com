@@ -394,4 +394,19 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Monday Night August 2025",
+    slug: "mnbb-08-2025",
+    sets: [
+      [
+        // this comment prevents a single line list
+        { slug: "besame-mucho" },
+        { slug: "youve-changed" },
+        { slug: "i-remember-you" },
+        { slug: "a-foggy-day" },
+        { slug: "nature-boy" },
+        { slug: "fever" },
+      ],
+    ],
+  },
 ]
