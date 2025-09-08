@@ -1,6 +1,8 @@
 import { getCollection, type CollectionEntry } from "astro:content"
 type SongSlug = CollectionEntry<"songs">["slug"]
-type ShowSong = { slug: SongSlug | SongSlug[]; feat?: string | undefined; banter?: string | undefined }
+type ShowSong =
+  | { slug: SongSlug | SongSlug[]; title?: never; feat?: string | undefined; banter?: string | undefined }
+  | { title: string; slug?: never; feat?: string | undefined; banter?: string | undefined }
 type ShowSet = ShowSong[]
 type Show = { name: string; slug: string; sets: ShowSet[] }
 
@@ -406,6 +408,33 @@ export const shows: Show[] = [
         { slug: "a-foggy-day" },
         { slug: "nature-boy" },
         { slug: "fever" },
+      ],
+    ],
+  },
+  {
+    name: "Alexian September 2025",
+    slug: "alx-09-2025",
+    sets: [
+      [
+        // this comment prevents a single line list
+        // { title: "Groovin' Hard" },
+        // { title: "How High the Moon" },
+        // { title: "Wave" },
+        { slug: "it-had-better-be-tonight-baby-go-go" },
+        { slug: "blue-skies" },
+        { slug: "teach-me-tonight" },
+        // { title: "Nice and Easy" },
+        // { title: "Nose (Mexicali Nose)" },
+      ],
+      [
+        // this comment prevents a single line list
+        // { title: "On the Street Where You Live" },
+        // { title: "Polka Dots and Moonbeams" },
+        { slug: "too-close-for-comfort" },
+        { slug: "somethings-gotta-give" },
+        // { title: "Slide Show" },
+        { slug: "caught-a-touch-of-your-love" },
+        // { title: "Time After Time" },
       ],
     ],
   },
