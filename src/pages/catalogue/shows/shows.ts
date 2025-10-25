@@ -453,4 +453,15 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Never thought I'd be on a boat",
+    slug: "boats-10-2025",
+    sets: [
+      [
+        // this comment prevents a single line list
+        { slug: "national-anthem" },
+        { slug: "hot-girls" },
+      ],
+    ],
+  },
 ]
