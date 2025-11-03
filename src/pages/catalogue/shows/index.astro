@@ -1,16 +1,22 @@
 ---
 import Layout from "$layouts/Layout.astro"
 import { shows } from "./shows"
+
+const [allSongs, ...restShows] = shows
+const reorderedShows = [...restShows, allSongs!].reverse()
 ---
 
 <Layout title="Finger on the Trigger">
   <div class="px-2">
     <h1 class="text-2xl">Setlists</h1>
-    <ul>
+    <ul class="text-xl">
       {
-        shows.map((show) => (
+        reorderedShows.map((show) => (
           <li>
-            <a class="link ml-4" href={`/catalogue/shows/${show.slug}/`}>
+            <a
+              class="inline-block mx-4 my-2 p-2 bg-blue-500 text-white border border-blue-600 rounded-lg hover:bg-blue-800 hover:border-blue-900"
+              href={`/catalogue/shows/${show.slug}/`}
+            >
               {show.name}
             </a>
           </li>
