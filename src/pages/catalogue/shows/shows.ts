@@ -479,4 +479,23 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Big Band Christmas 2025",
+    slug: "big-band-christmas-2025",
+    sets: [
+      [
+        // this comment prevents a single line list
+        { slug: "home-for-the-holidays" },
+        { slug: "the-christmas-song" },
+        { slug: "jingle-bells" },
+        { slug: "white-christmas" },
+      ],
+      [
+        // this comment prevents a single line list
+        { slug: "santa-claus-is-coming-to-town" },
+        { slug: "let-it-snow" },
+        { slug: "have-yourself-a-merry-little-christmas" },
+      ],
+    ],
+  },
 ]
