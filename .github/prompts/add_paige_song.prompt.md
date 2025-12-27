@@ -1,5 +1,5 @@
 ---
-mode: edit
+agent: agent
 ---
 
 Look at the following files for context:
