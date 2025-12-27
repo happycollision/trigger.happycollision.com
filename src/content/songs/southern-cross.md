@@ -2,6 +2,8 @@
 title: Southern Cross
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=1053305&is_ukulele=0&simplified=0&transpose=0
+
 ```
 Got out of town on a boat, going to Southern islands
 Sailing a reach before a following sea

@@ -3,6 +3,8 @@ title: Danny Boy
 reminder: D Dmaj7 D7 G Gm...
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=1170325&is_ukulele=0&simplified=0&transpose=0
+
 [YouTube link](https://www.youtube.com/watch?v=a9CKSLG5cck)
 
 [Our recording](https://www.dropbox.com/s/u3kx420bsdw4fxh/08%20Danny%20Boy.m4a?dl=0)

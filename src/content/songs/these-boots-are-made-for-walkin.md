@@ -2,6 +2,8 @@
 title: These Boots Are Made For Walkin'
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=113347&is_ukulele=0&simplified=0&transpose=0
+
 ```
 You keep saying you got something for me
 Something you call love, but confess

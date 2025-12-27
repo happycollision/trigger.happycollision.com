@@ -2,6 +2,8 @@
 title: Dreams
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=1044711&is_ukulele=0&simplified=0&transpose=0
+
 ```
 Now here you go again, you say you want your freedom
 Well, who am I to keep you down?

@@ -2,6 +2,8 @@
 title: Ticket to Ride
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=1088894&is_ukulele=0&simplified=0&transpose=0
+
 ```
 I think I'm gonna be sad
 I think it's today, yeah

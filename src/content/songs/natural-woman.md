@@ -3,6 +3,8 @@ title: (You Make Me Feel Like) A Natural Woman
 altTitle: Key of C
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=690605&is_ukulele=0&simplified=0&transpose=0
+
 ```
 Looking out on the morning rain
 I used to feel so uninspired

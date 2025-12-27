@@ -2,6 +2,8 @@
 title: Pink Pony Club
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=3066623&is_ukulele=0&simplified=0&transpose=0
+
 ```
 I know you wanted me to stay
 But I can't ignore the crazy visions of me in L.A.

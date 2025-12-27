@@ -2,6 +2,8 @@
 title: Fly Me To the Moon
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=335196&is_ukulele=0&simplified=0&transpose=0
+
 ```
 Fly me to the moon
 Let me play among the stars

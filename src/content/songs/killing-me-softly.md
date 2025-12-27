@@ -2,6 +2,8 @@
 title: Killing Me Softly With His Song
 ---
 
+https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=68506&is_ukulele=0&simplified=0&transpose=0
+
 ```
 Strumming my pain with his fingers
 Singing my life with his words
