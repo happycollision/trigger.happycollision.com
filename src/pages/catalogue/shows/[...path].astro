@@ -436,48 +436,30 @@ const thisSongStats = sets
                       `${showUrl}/${song.songNo}/alt/`,
                     )
 
-                  const linkInner = (
-                    <li class="py-4 ml-12 pl-0">
-                      <div>
-                        <span class="link !no-underline">
-                          {song.data.title}
-                        </span>
-                        <strong class="min-w-[4rem] inline-block">
-                          {song.feat}
-                        </strong>
-                      </div>
-                      {!Astro.url.pathname.includes("/all-songs") &&
-                        song.data.reminder && (
-                          <div class="mt-2">{song.data.reminder}</div>
-                        )}
-                    </li>
-                  )
-
                   return (
-                    <>
-                      {/* One link for desktop, with a hash */}
-                      <a
-                        id={song.slug}
-                        class={
-                          "hidden lg:block break-inside-avoid " +
-                          (isActive ? "bg-neutral-200" : "hover:bg-blue-200")
-                        }
-                        href={s`${showUrl}/${song.songNo}` + `#${song.slug}`}
-                      >
-                        {linkInner}
-                      </a>
-                      {/* One link for mobile, without a hash */}
-                      <a
-                        id={song.slug}
-                        class={
-                          "block lg:hidden break-inside-avoid " +
-                          (isActive ? "bg-neutral-200" : "hover:bg-blue-200")
-                        }
-                        href={s`${showUrl}/${song.songNo}`}
-                      >
-                        {linkInner}
-                      </a>
-                    </>
+                    <a
+                      id={song.slug}
+                      class={
+                        "block break-inside-avoid " +
+                        (isActive ? "bg-neutral-200" : "hover:bg-blue-200")
+                      }
+                      href={s`${showUrl}/${song.songNo}` + `#${song.slug}`}
+                    >
+                      <li class="py-4 ml-12 pl-0">
+                        <div>
+                          <span class="link !no-underline">
+                            {song.data.title}
+                          </span>
+                          <strong class="min-w-[4rem] inline-block">
+                            {song.feat}
+                          </strong>
+                        </div>
+                        {!Astro.url.pathname.includes("/all-songs") &&
+                          song.data.reminder && (
+                            <div class="mt-2">{song.data.reminder}</div>
+                          )}
+                      </li>
+                    </a>
                   )
                 })}
               </ol>
