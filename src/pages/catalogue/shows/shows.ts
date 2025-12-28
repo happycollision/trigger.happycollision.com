@@ -1,8 +1,8 @@
 import { getCollection, type CollectionEntry } from "astro:content"
 type SongSlug = CollectionEntry<"songs">["slug"]
 type ShowSong =
-  | { slug: SongSlug | SongSlug[]; title?: never; feat?: string | undefined; banter?: string | undefined }
-  | { title: string; slug?: never; feat?: string | undefined; banter?: string | undefined }
+  | { slug: SongSlug | SongSlug[]; title?: never; type?: "song"; feat?: string | undefined; banter?: string | undefined }
+  | { title: string; slug?: never; type: "placeholder"; feat?: string | undefined; banter?: string | undefined }
 type ShowSet = ShowSong[]
 type Show = { name: string; slug: string; sets: ShowSet[] }
 

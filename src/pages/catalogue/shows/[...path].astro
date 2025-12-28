@@ -20,9 +20,26 @@ export async function getStaticPaths() {
       songs
         .map((song) => ({
           ...song,
+          type: song.type || "song",
           banterHtml: song.banter ? marked.parse(song.banter) : undefined,
         }))
         .map((song) => {
+          // Handle placeholder songs
+          if (song.type === "placeholder") {
+            return {
+              ...song,
+              slug: `placeholder-${songNo}`,
+              data: {
+                title: song.title || "Placeholder",
+                reminder: undefined,
+                altTitle: undefined,
+              },
+              songNo: ++songNo,
+              altVersions: [],
+              render: () => Promise.resolve({ Content: undefined }),
+            }
+          }
+
           const [slug, ...altSlugs] = ensureArray(song.slug)
           const found = songList.find((x) => x.slug === slug)
           if (!found) throw new Error(`Couldn't find song ${slug}`)
@@ -257,7 +274,7 @@ const thisSongStats = sets
   <div class="p-2 pt-0">
     <div class="flex flex-col lg:flex-row gap-4">
       {
-        songDetails && Content && (
+        songDetails && (
           <div class="lg:order-1 lg:grow">
             {[0, 1].map((i) => (
               <div
@@ -365,15 +382,24 @@ const thisSongStats = sets
               <div class="mt-4 text-xl">{songDetails.data.reminder}</div>
 
               <div class="text-xl mt-4 [&_pre]:whitespace-pre-wrap">
-                <Markdown>
-                  {songDetails.banterHtml && (
-                    <div
-                      class="bg-gray-200 rounded p-2 border border-gray-500 my-4"
-                      set:html={songDetails.banterHtml}
-                    />
-                  )}
-                  <Content />
-                </Markdown>
+                {Content ? (
+                  <Markdown>
+                    {songDetails.banterHtml && (
+                      <div
+                        class="bg-gray-200 rounded p-2 border border-gray-500 my-4"
+                        set:html={songDetails.banterHtml}
+                      />
+                    )}
+                    <Content />
+                  </Markdown>
+                ) : (
+                  <div class="bg-yellow-100 border-2 border-yellow-500 rounded p-8 text-center">
+                    <p class="text-3xl mb-4">📝 Placeholder Song</p>
+                    <p class="text-xl">
+                      This song is a placeholder and has no content yet.
+                    </p>
+                  </div>
+                )}
                 <button
                   data-scroll
                   class="block sticky bottom-0 left-0 w-full h-[33.33vh]"
