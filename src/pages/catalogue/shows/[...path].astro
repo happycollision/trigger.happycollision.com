@@ -410,7 +410,12 @@ const thisSongStats = sets
         )
       }
 
-      <div class="lg:w-96 shrink-0 h-screen overflow-y-auto sticky top-0">
+      <div
+        class:list={[
+          songDetails && "hidden lg:block",
+          "lg:w-96 shrink-0 h-screen overflow-y-auto sticky top-0",
+        ]}
+      >
         <div class="text-2xl border-b border-neutral-400 flex items-baseline">
           <h1 class="inline mr-4">
             <a href={showUrl} class="link !no-underline">
