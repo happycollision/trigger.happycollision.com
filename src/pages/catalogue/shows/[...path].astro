@@ -449,6 +449,7 @@ const thisSongStats = sets
                         (isActive ? "bg-neutral-200" : "hover:bg-blue-200")
                       }
                       href={s`${showUrl}/${song.songNo}` + `#${song.slug}`}
+                      data-active={isActive ? "true" : "false"}
                     >
                       <li class="py-4 ml-12 pl-0">
                         <div>
@@ -475,3 +476,13 @@ const thisSongStats = sets
     </div>
   </div>
 </Layout>
+
+<script>
+  // Highlight active song in sidebar on load
+  const activeLink = document.querySelector(
+    'a[data-active="true"]',
+  ) as HTMLElement | null
+  if (activeLink) {
+    activeLink.scrollIntoView()
+  }
+</script>
