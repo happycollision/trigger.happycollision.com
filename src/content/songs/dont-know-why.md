@@ -2,35 +2,35 @@
 title: "Don't Know Why"
 ---
 
-https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=57811&is_ukulele=0&simplified=0&transpose=0
+[UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=57811&is_ukulele=0&simplified=0&transpose=0)
 
 ```
-I waited 'til I saw the sun 
-I don't know why I didn't come 
-I left you by the house of fun 
-Don't know why I didn't come 
+I waited 'til I saw the sun
+I don't know why I didn't come
+I left you by the house of fun
+Don't know why I didn't come
 Don't know why I didn't come
 
-When I saw the break of day 
-I wished that I could fly away 
-Instead of kneeling in the sand 
+When I saw the break of day
+I wished that I could fly away
+Instead of kneeling in the sand
 Catching tear-drops in my hand
 
-My heart is drenched in wine 
+My heart is drenched in wine
 But you'll be on my mind forever
 
-Out across the endless sea 
-I would die in ecstasy 
-But I'll be a bag of bones 
+Out across the endless sea
+I would die in ecstasy
+But I'll be a bag of bones
 Driving down the road alone
 
-My heart is drenched in wine 
+My heart is drenched in wine
 But you'll be on my mind forever
 
-Something has to make you run 
-I don't know why I didn't come 
-I feel as empty as a drum 
-I don't know why I didn't come 
-Don't know why I didn't come 
+Something has to make you run
+I don't know why I didn't come
+I feel as empty as a drum
+I don't know why I didn't come
+Don't know why I didn't come
 I don't know why I didn't come
 ```

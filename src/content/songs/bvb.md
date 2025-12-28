@@ -3,7 +3,7 @@ title: Black Velvet Band
 reminder: G C A7 D7, G Em C D7 G
 ---
 
-https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=626924&is_ukulele=0&simplified=0&transpose=0
+[UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=626924&is_ukulele=0&simplified=0&transpose=0)
 
 [YouTube link](https://www.youtube.com/watch?v=DfsgHyymG8E)
 

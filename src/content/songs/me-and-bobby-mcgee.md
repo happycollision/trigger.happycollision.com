@@ -2,7 +2,7 @@
 title: Me and Bobby McGee
 ---
 
-https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=55002&is_ukulele=0&simplified=0&transpose=0
+[UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=55002&is_ukulele=0&simplified=0&transpose=0)
 
 ```
 Busted flat in Baton Rouge, waitin' for a train

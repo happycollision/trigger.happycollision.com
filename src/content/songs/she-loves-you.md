@@ -3,7 +3,7 @@ title: She Loves You
 altTitle: Key of G
 ---
 
-https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=17355&is_ukulele=0&simplified=0&transpose=0
+[UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=17355&is_ukulele=0&simplified=0&transpose=0)
 
 ```
 [Intro]

@@ -5,7 +5,8 @@ reminder: A  D , A  D , A  D  E
 
 [YouTube link](https://www.youtube.com/watch?v=A1NZcH2haIM)
 
-[Chords online](https://tabs.ultimate-guitar.com/tab/dropkick-murphys/the-boys-are-back-chords-3839777)
+[Chords
+online]([UG Chords Link](https://tabs.ultimate-guitar.com/tab/dropkick-murphys/the-boys-are-back-chords-3839777))
 
 ```
 [Intro]

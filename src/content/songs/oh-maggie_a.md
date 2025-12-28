@@ -7,8 +7,8 @@ altTitle: Key of A
 
 [Vocal parts recording](/rehearse/maggie-intro.mp3)
 
-Transcription from
-[this source online](https://tabs.ultimate-guitar.com/tab/the-high-kings/oh-maggie-chords-2649372)
+Transcription from [this source
+online]([UG Chords Link](https://tabs.ultimate-guitar.com/tab/the-high-kings/oh-maggie-chords-2649372))
 
 I've changed all the C# to C#m, as I am pretty sure that is what is actually
 going on. You can also use F#m (or A) to transitions between E and D or from D

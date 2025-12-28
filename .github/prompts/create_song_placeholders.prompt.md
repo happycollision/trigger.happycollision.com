@@ -17,7 +17,7 @@ This repository contains a collection of song chord charts. Songs are stored in
 title: Song Title
 ---
 
-https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=XXXXXXX&is_ukulele=0&simplified=0&transpose=0
+[UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=XXXXXXX&is_ukulele=0&simplified=0&transpose=0)
 
 \`\`\`
 
@@ -38,7 +38,7 @@ song:
 
 2. **Search Ultimate Guitar**: For each song:
 
-   - Search https://www.ultimate-guitar.com for the song
+   - Search [UG Chords Link](https://www.ultimate-guitar.com for the song)
    - Find the **highest rated non-pro version** (look for chords or tabs with
      4-5 star ratings)
    - Extract the tab ID from the URL (the `id=` parameter)
@@ -50,7 +50,7 @@ song:
    - **Title**: Proper capitalization in frontmatter
    - **Ultimate Guitar URL**: Use the format:
      ```
-     https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=XXXXXXX&is_ukulele=0&simplified=0&transpose=0
+     [UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=XXXXXXX&is_ukulele=0&simplified=0&transpose=0)
      ```
    - **Empty code blocks**: Two empty code blocks where chords will be pasted
 
@@ -66,7 +66,7 @@ For the song "Lover" by Taylor Swift:
 title: Lover
 ---
 
-https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=2796355&is_ukulele=0&simplified=0&transpose=0
+[UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=2796355&is_ukulele=0&simplified=0&transpose=0)
 
 \`\`\`
 

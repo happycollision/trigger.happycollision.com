@@ -3,7 +3,7 @@ title: Lovesick Blues
 altTitle: Key of F
 ---
 
-https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=732468&is_ukulele=0&simplified=0&transpose=0
+[UG Chords Link](https://tabs.ultimate-guitar.com/tab/print?app_utm_campaign=Export2pdfDownload&flats=0&font_size=0&id=732468&is_ukulele=0&simplified=0&transpose=0)
 
 ```
         F
