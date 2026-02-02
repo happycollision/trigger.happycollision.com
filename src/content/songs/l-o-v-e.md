@@ -1,0 +1,37 @@
+---
+title: L-O-V-E
+---
+
+```
+(4m intro)
+
+[Verse 1]
+L is for the way you look at me
+O is for the only one I see
+V is very, very extraordinary
+E is even more than anyone that you adore can
+
+[Chorus]
+Love is all that I can give to you
+Love is more than just a game for two
+Two in love can make it, take my heart and please don't break it
+Love was made for me and you
+
+(16 bars shout section, 16 bars Trumpet solo, back in on key change)
+
+[Verse 2]
+L is for the way you look at me
+O is for the only one I see
+V is very, very extraordinary
+E is even more than anyone that you adore can
+
+[Chorus]
+Love is all that I can give to you
+Love is more than just a game for two
+Two in love can make it, take my heart and please don't break it
+Love was made for me and you
+
+[Outro]
+Love a-was made for me and you
+Love a-was made for me and you
+```
