@@ -23,3 +23,5 @@ pnpm-debug.log*
 .DS_Store
 
 *.ignore
+# Claude Code - ignore local settings, keep shared settings
+.claude/settings.local.json
