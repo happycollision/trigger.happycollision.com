@@ -651,4 +651,18 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Monday Night August 2026",
+    slug: "mnbb-08-2026",
+    sets: [
+      [
+        { slug: "too-close-for-comfort" },
+        { slug: "i-remember-you" },
+        { slug: "what-a-difference-a-day-makes" },
+        { slug: "only-you" },
+        { slug: "swonderful" },
+        { slug: "youve-changed" },
+      ],
+    ],
+  },
 ]
