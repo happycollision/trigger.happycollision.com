@@ -4,6 +4,14 @@ set -euo pipefail
 repo_root="$(cd "$(dirname "${BASH_SOURCE[0]}")/.." && pwd)"
 cd "$repo_root"
 
+if ! command -v rsync >/dev/null 2>&1; then
+  step_started=$SECONDS
+  echo "[setup] Installing system dependencies..."
+  sudo apt-get update
+  sudo apt-get install -y rsync
+  echo "[setup] System dependencies ready in $((SECONDS - step_started))s."
+fi
+
 step_started=$SECONDS
 echo "[setup] Ensuring mise and the pinned Node.js toolchain are installed..."
 mise_bin="$HOME/.local/bin/mise"
