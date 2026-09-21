@@ -25,3 +25,6 @@ pnpm-debug.log*
 *.ignore
 # Claude Code - ignore local settings, keep shared settings
 .claude/settings.local.json
+
+# Amp orb portal metadata
+.amp/portals/*
