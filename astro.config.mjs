@@ -29,7 +29,9 @@ export default defineConfig({
         ],
       },
       workbox: {
-        navigateFallbackDenylist: [/^\/rehearse/],
+        // Keep the listening lab online-only; lyrics must not precache its audio.
+        globIgnores: ["**/in-ear/**"],
+        navigateFallbackDenylist: [/^\/rehearse/, /^\/in-ear(?:\/|$)/],
       },
     }),
   ],

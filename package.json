@@ -4,6 +4,7 @@
   "version": "0.0.1",
   "private": true,
   "scripts": {
+    "test": "node --test tests/in-ear/*.test.js",
     "dev": "astro dev",
     "start": "astro dev",
     "build": "astro build",

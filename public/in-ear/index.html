@@ -1,0 +1,242 @@
+<!doctype html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width,initial-scale=1" />
+    <meta name="color-scheme" content="light dark" />
+    <meta
+      name="theme-color"
+      content="#f5f4ef"
+      media="(prefers-color-scheme: light)"
+    />
+    <meta
+      name="theme-color"
+      content="#181d1a"
+      media="(prefers-color-scheme: dark)"
+    />
+    <title>In Ear — Find your mix</title>
+    <link rel="stylesheet" href="style.css" />
+  </head>
+  <body>
+    <aside>
+      <a class="brand" href="./"
+        ><span class="brand-icon">ııⅠıı</span> in ear<span class="brand-dot"
+          >.</span
+        ></a
+      >
+      <p class="tagline">A little knowledge. A better mix.</p>
+      <div class="nav-label">THE LISTENING LAB</div>
+      <nav id="scenarios" aria-label="Wiring setups"></nav>
+      <div class="sidebar-note">
+        <span>◎</span
+        ><strong>Good sound starts<br />with the right connection.</strong>
+        <p>No gear needed. Just headphones<br />and a little curiosity.</p>
+      </div>
+      <div class="edition">
+        IN-EAR MONITORS, DEMYSTIFIED<br />Interactive field guide · Vol. 01
+      </div>
+    </aside>
+    <main>
+      <header>
+        <span>LEARN BY LISTENING</span
+        ><span class="status"><i></i> All in your browser</span>
+      </header>
+      <section class="intro">
+        <div class="eyebrow" id="step"></div>
+        <h1 id="title"></h1>
+        <p id="description"></p>
+      </section>
+      <section class="routing" aria-labelledby="route-title">
+        <div class="section-heading">
+          <h2 id="route-title">Follow the signal</h2>
+          <span>THE WIRING DETERMINES THE POSSIBILITIES</span>
+        </div>
+        <div class="diagram-key" aria-label="Diagram legend">
+          <span><i class="key-cable"></i> Audio cable</span>
+          <span><i class="key-ears"></i> Your ear-feed path</span>
+          <span><i class="key-radio"></i> Wireless link</span>
+        </div>
+        <p class="diagram-scroll-hint" id="diagram-scroll-hint">
+          Scroll across to follow the full connection →
+        </p>
+        <div
+          class="signal"
+          id="signal"
+          tabindex="0"
+          role="region"
+          aria-label="Equipment connections, horizontally scrollable"
+          aria-describedby="diagram-scroll-hint"
+        ></div>
+        <p class="route-note" id="route-note"></p>
+        <p class="equipment-disclaimer">
+          Representative equipment, not model-specific socket positions.
+          Wireless carries the finished mix; it doesn’t add individual channel
+          control.
+        </p>
+      </section>
+      <div class="workbench">
+        <section class="console">
+          <div class="console-header">
+            <div>
+              <span class="eyebrow">AT THE BOARD · NOT ON YOUR PACK</span>
+              <h2 id="console-title"></h2>
+            </div>
+            <button id="reset" class="reset">↺ Reset</button>
+          </div>
+          <p id="console-description"></p>
+          <div
+            class="requests"
+            id="requests"
+            role="group"
+            aria-label="Requests to the sound engineer"
+          ></div>
+          <section class="local-controls" id="local-controls" hidden>
+            <span class="eyebrow">IN YOUR HANDS · LOCAL CONTROL</span>
+            <h3>Your personal mixer</h3>
+            <p id="mixer-help">
+              Slide up for more, down for less. You control these two feeds—not
+              the instruments inside the band mix.
+            </p>
+            <div
+              class="mixer-device"
+              role="group"
+              aria-label="Two-input personal mixer"
+            >
+              <div class="mixer-channel">
+                <span class="input-jack" aria-hidden="true"></span>
+                <small>INPUT 1 · DIRECT MIC</small>
+                <label for="personal-voice">My voice</label>
+                <div class="fader-slot">
+                  <span aria-hidden="true"
+                    >100<br />75<br />50<br />25<br />0</span
+                  ><input
+                    id="personal-voice"
+                    data-channel="0"
+                    type="range"
+                    aria-orientation="vertical"
+                    min="0"
+                    max="100"
+                    value="65"
+                    aria-describedby="mixer-help"
+                  />
+                </div>
+                <output id="personal-voice-value" for="personal-voice"
+                  >65%</output
+                >
+              </div>
+              <div class="mixer-channel">
+                <span class="input-jack" aria-hidden="true"></span>
+                <small>INPUT 2 · BOARD AUX</small>
+                <label for="personal-band">Band feed</label>
+                <div class="fader-slot">
+                  <span aria-hidden="true"
+                    >100<br />75<br />50<br />25<br />0</span
+                  ><input
+                    id="personal-band"
+                    data-channel="1"
+                    type="range"
+                    aria-orientation="vertical"
+                    min="0"
+                    max="100"
+                    value="75"
+                    aria-describedby="mixer-help"
+                  />
+                </div>
+                <output id="personal-band-value" for="personal-band"
+                  >75%</output
+                >
+              </div>
+            </div>
+            <p id="mixer-destination">
+              These controls change your in-ears only.
+            </p>
+            <small
+              >Representative two-channel controls; actual hardware
+              varies.</small
+            >
+          </section>
+          <div class="console-footer" role="status">
+            <span class="signal-dot"></span><span id="console-footer"></span>
+          </div>
+        </section>
+        <section class="ear-panel">
+          <span class="eyebrow">ON YOUR END</span>
+          <h2>Your in-ears</h2>
+          <div class="headphones" aria-hidden="true">♧</div>
+          <label for="ear"
+            >Overall ear level <output id="ear-value">50%</output></label
+          ><input id="ear" type="range" min="0" max="100" value="50" />
+          <div class="range-labels"><span>Silent</span><span>Louder</span></div>
+          <p id="ear-description"></p>
+          <span class="ear-badge" id="ear-badge"></span>
+        </section>
+      </div>
+      <section class="lesson">
+        <div class="lesson-mark">↗</div>
+        <div>
+          <h2 id="lesson-title"></h2>
+          <p id="lesson-text"></p>
+          <div id="challenge" class="challenge"></div>
+        </div>
+      </section>
+      <footer class="safety">
+        Listen low. Start with your device volume down. This is a routing model,
+        not a hearing-safety meter.<br />Real gear varies: use a compatible
+        headphone amp or IEM pack. Never connect ears to a speaker-power output.
+      </footer>
+    </main>
+    <section class="transport" aria-label="Audio playback">
+      <button id="play" aria-label="Play demo">▶</button>
+      <div class="song">
+        <label class="eyebrow" for="song-select"
+          >THE PRACTICE ROOM · CHOOSE A SONG</label
+        >
+        <select id="song-select" aria-describedby="song-hint"></select>
+        <span id="song-hint"
+          >Changing songs pauses playback. Press Play to listen.</span
+        >
+        <span id="audio-status" role="status"
+          >Recorded vocals, guitar, bass &amp; drums · 40-second practice
+          remix</span
+        >
+        <span class="music-credit"
+          ><a
+            id="song-source"
+            href="https://ccmixter.org/files/bradsucks/93"
+            target="_blank"
+            rel="noopener"
+            >Source: ccMixter</a
+          >
+          ·
+          <a
+            id="song-license"
+            href="https://creativecommons.org/licenses/by/2.5/"
+            target="_blank"
+            rel="noopener"
+            >CC BY 2.5</a
+          >
+          ·
+          <a href="assets/audio/CREDITS.md" target="_blank" rel="noopener"
+            >Edits &amp; credits</a
+          ></span
+        >
+      </div>
+      <div class="playback">
+        <span id="time">0:00</span>
+        <div class="progress"><div id="progress"></div></div>
+        <span>LOOP</span>
+      </div>
+      <div class="listen">
+        <span>LISTEN TO</span>
+        <div role="group" aria-label="Listening destination">
+          <button data-listen="ears" aria-pressed="true">Your in-ears</button
+          ><button data-listen="stage" aria-pressed="false">
+            Stage monitor
+          </button>
+        </div>
+      </div>
+      <p id="audio-error" role="alert"></p>
+    </section>
+    <script type="module" src="app.js"></script>
+  </body>
+</html>
