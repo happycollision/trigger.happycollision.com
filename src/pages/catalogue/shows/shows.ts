@@ -699,7 +699,7 @@ export const shows: Show[] = [
     ],
   },
   {
-    name: "Paige at Barking Legs — November 2, 2026",
+    name: "Monday Night November 2026",
     slug: "mnbb-11-2026",
     sets: [
       [
