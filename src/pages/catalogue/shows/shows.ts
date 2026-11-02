@@ -698,4 +698,20 @@ export const shows: Show[] = [
       ],
     ],
   },
+  {
+    name: "Paige at Barking Legs — November 2, 2026",
+    slug: "mnbb-11-2026",
+    sets: [
+      [
+        { slug: "all-the-things-you-are", feat: "Paige" },
+        { slug: "blue-skies", feat: "Paige" },
+        { slug: "the-very-thought-of-you", feat: "Paige" },
+      ],
+      [
+        { slug: "just-in-time", feat: "Paige", banter: "Lohorn arrangement." },
+        { slug: "paper-moon", feat: "Paige", banter: "Lohorn arrangement." },
+        { slug: "fever", feat: "Paige" },
+      ],
+    ],
+  },
 ]
